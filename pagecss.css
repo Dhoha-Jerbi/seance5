@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;500;700;900&family=Poppins:ital,wght@0,200;0,300;0,500;0,800;1,100&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+
+body {
+    background-color: white;
+}
+
+.part1 {
+    height: 99vh;background-color: yellow;}
+ 
+.part2 {
+    height:99vh;background-color: white;
+
+}
+.part3 {
+    height: 99vh;background-color: aqua;
+}
+.part4 
+{
+    height: 99vh;background-color: goldenrod;
+
+}
+.part5 {
+    height: 99vh;
+    
+
+}
+.part6 {
+    height: 99vh;
+    background-color: aquamarine;
+}
+.navbar{
+   
+   background: linear-gradient(180deg, black ,grey);
+
+   display: flex;
+justify-content:space-between;
+align-items: center;
+position:fixed;
+    height: 50px;
+   width:98vw;
+}
+
+
+   .menu {
+    
+    display: flex;
+    gap:20px;
+   }
+   .contenu {
+    padding-top:50px;
+    display:flex;
+    flex-direction: row;
+   
+   }
+
+   .taswira{
+height:695px;
+    width:750px;
+    background:url(photo1.jpg);
+    background-attachment: fixed;
+   }
+     
+
+    .contenutexte{
+   height:695px;
+   width:750px;
+       background-color: white;
+     }
+
+
+     .logo img{
+    height:45px;
+    width:90px;
+    margin-top: 5px;
+    margin-left:5px;
+    border-radius: 20px;
+    opacity: 50%
+    
+    }
+   .contenutexte h1 {
+    font-size: 70px;
+    font-family:Geologica;
+   }
+.contenutexte h2 {
+    font-size:40px;
+    font-family: geologica;
+
+}
+.contenutexte p {
+    font-family: geologica;
+    font-size: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: geologica;
+
+}
+.menu a:hover {
+    font-weight: 700;
+    font-size: 18px;
+}
+.meet {
+    text-align: center;
+    font-family: geologica;
+    padding:20px;
+    
+}
+.part2 {
+    height:99%;
+    width:99%;
+
+    display: flex;
+    flex-direction: column;
+   
+    
+    ;
+}
+.cont2 {
+    height:80%;
+    width:80%;
+  padding-top:0;
+   
+    margin:auto;
+    padding: 0;
+    display: grid;
+    grid-template-rows:(3,1fr) ;
+    grid-template-columns:(5,1fr);
+    grid-template-areas: 
+   "item1 item1 item1 item2 item2"
+   "item3 item3 item4 item4 item4" 
+"item3 item3 item5 item5 item5" ;
+gap:6px;
+}
+.item1 {
+  
+    background:url(1.jpeg);
+    background-size:cover;
+    grid-area:item1;
+    border-radius: 5px;
+  
+    
+}
+.item2 {
+  
+    background:url(2.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-area:item2;
+    border-radius: 5px;
+
+}
+.item3 {
+   
+    background:url(3.jpg);
+    background-size:cover;
+    background-position: center;
+    grid-area:item3;
+    border-radius: 5px;
+}
+.item4 {
+    
+    background:url(4.jpg);
+    background-size:cover;
+    background-position: center;
+    border-radius: 5px;
+
+    grid-area:item4;
+
+
+}
+.item5 {
+   
+    background:url(5.jpeg);
+    background-size:cover;
+    background-position: center;
+grid-area:item5;
+border-radius: 5px;}
+
+.contenutext {
+margin-top:auto;
+    text-align: center;
+    font-family: geologica;
+    
+
+}
+
+.avis1 {
+   
+    font-weight: bolder;
+  
+    
+    grid-area:item1;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+    background-color: white;
+}
+    
+
+
+.avis2 {
+   
+    font-weight: bolder;
+    background-color :white;
+    grid-area:item2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+.avis3{
+    
+    font-weight: bolder;
+    
+    grid-area:item3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+
+}
+.avis4 {
+    
+    font-weight: bolder;
+   
+    grid-area:item4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+.avis5 {
+   
+    font-weight: bolder;
+    
+    grid-area:item5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+.avis6{
+    
+    font-weight: bolder;
+    
+    grid-area:item6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+   font
+}
+.contenuavis {
+    padding-top: 0px;
+   height: 100%;
+   width:100%;
+    display: grid;
+   grid-template-rows: (2,1fr);
+   grid-template-columns:(3,1fr) ;
+grid-template-areas:
+"item1 item2 item3" 
+"item4 item5 item6";
+}
+
+
+  img {
+    border-radius: 100px;
+    height:80px;
+    width:80px;
+
+  } 
+  .bordure1 {
+    font-weight: bolder;
+    border-style:ridge;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin:0;
+    padding:0;
+    
+
+}
+  
+  
